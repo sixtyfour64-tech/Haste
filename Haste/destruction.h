@@ -7,7 +7,7 @@ typedef enum _SHUTDOWN_ACTION {
 	ShutdownNoReboot,
 	ShutdownReboot,
 	ShutdownPowerOff
-} SHUTDOWN_ACTION, *PSHUTDOWN_ACTION ;
+} SHUTDOWN_ACTION, *PSHUTDOWN_ACTION;
 
 BOOL WINAPI SetPriv(HANDLE hToken, LPCWSTR lpwPriv, BOOL blEnablePriv);
 BOOL WINAPI TakeOwnership(LPCWSTR lpwFile);
